@@ -1,0 +1,41 @@
+@import "../../App.sass";
+.wrap {
+  @include grid-2;
+
+  h1 {
+    font-family: $ff-secondary;
+    font-style: normal;
+    font-weight: $fw-bold;
+    font-size: $fs-900;
+    line-height: 46px;
+    color: $clr-primary;
+  }
+  h1:nth-child(1) {
+    padding-bottom: 46px;
+  }
+  button {
+    margin-top: 60px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.02px;
+    color: #ffffff;
+    background: #43806c;
+    border: 1px solid #43806c;
+    border-radius: 6px;
+    width: 125px;
+    height: 47px;
+  }
+  &__content {
+    background: #e3eeed;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 100px;
+  }
+}

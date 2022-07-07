@@ -1,0 +1,56 @@
+@import "../../App.sass";
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.wrap {
+  background-image: url("../../assets/images/girl_laptop.png");
+  height: 522px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .content {
+    width: 491px;
+    h6 {
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 20px;
+      letter-spacing: 0.05px;
+      text-transform: uppercase;
+      color: #43806c;
+      padding-bottom: 20px;
+    }
+    h1 {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 46px;
+      color: #214e41;
+      padding-bottom: 34px;
+    }
+    h4 {
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 30px;
+      letter-spacing: 0.02px;
+      color: #757575;
+      padding-bottom: 24px;
+    }
+    h3 {
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 18px;
+      letter-spacing: 0.02px;
+      color: #214e41;
+    }
+  }
+}

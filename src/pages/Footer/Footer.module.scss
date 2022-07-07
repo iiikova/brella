@@ -1,0 +1,88 @@
+@import "../../App.sass";
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.wrap {
+  background-color: $clr-primary;
+  color: $clr-white;
+  //   height: 788px;
+  padding: 50px 0;
+  img {
+    height: 28px;
+    width: 98px;
+  }
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    width: 100%;
+    border-bottom: 1px solid $clr-white;
+    padding-bottom: 50px;
+    ul li:first-child {
+      font-weight: bold;
+    }
+    ul li {
+      padding-bottom: 15px;
+    }
+    h1:first-child {
+      text-transform: uppercase;
+      padding-bottom: 19px;
+    }
+    h1 {
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 24px;
+      letter-spacing: 0.02px;
+      color: $clr-white;
+    }
+    .input {
+      display: flex;
+      height: 50px;
+      margin-top: 20px;
+      width: 345px;
+      input {
+        background-color: transparent;
+        border: 1px solid $clr-white;
+        border-radius: 0px;
+        width: 100%;
+        height: 50px;
+      }
+      input::placeholder {
+        color: $clr-white;
+        padding-left: 50px;
+      }
+      button {
+        background: $clr-white;
+        border-radius: 0px;
+        height: 50px;
+        width: 53px;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2rem;
+      }
+    }
+    .social {
+      display: flex;
+
+      span {
+        margin-top: 30px;
+        font-size: 3rem;
+        margin-right: 30px;
+      }
+    }
+  }
+  &__text {
+    padding: 50px 0;
+  }
+  &__terms {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+  }
+}

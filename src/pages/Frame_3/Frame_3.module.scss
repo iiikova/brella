@@ -1,0 +1,61 @@
+@import "../../App.sass";
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.wrap {
+  background: #e3eeed;
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  &__left {
+    padding: 130px;
+
+    h6 {
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 20px;
+      letter-spacing: 0.05px;
+      text-transform: uppercase;
+      color: #214e41;
+      margin-bottom: 29px;
+    }
+    // display: flex;
+
+    background-image: url("../../assets/images/light_green.png");
+    p,
+    li {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 42px;
+      color: #43806c;
+      margin-bottom: 20px;
+    }
+  }
+  &__right {
+    padding: 130px;
+
+    width: 100%;
+    background-image: url("../../assets/images/dark_green.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    h3 {
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 34px;
+      letter-spacing: 0.02px;
+      color: #ffffff;
+    }
+  }
+}

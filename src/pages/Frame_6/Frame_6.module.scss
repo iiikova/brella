@@ -1,0 +1,23 @@
+@import "../../App.sass";
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.wrap {
+  padding: 100px 0;
+  border-bottom: 1px solid rgba(199, 199, 199, 0.37);
+  h1 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    color: #214e41;
+  }
+  .slider {
+    padding-top: 115px;
+  }
+}

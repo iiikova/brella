@@ -1,0 +1,116 @@
+@import "../../App.sass";
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.wrap__one {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 3rem;
+  padding: 100px 0 50px 0;
+  h6 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 15px;
+    letter-spacing: 0.05px;
+    text-transform: uppercase;
+    color: #43806c;
+  }
+  h1 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    margin-bottom: 34px;
+    color: #214e41;
+  }
+  h4 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.02px;
+    color: #757575;
+  }
+}
+.wrap__two {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5rem;
+  margin-bottom: 100px;
+  h1 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 78px;
+    color: #f0a446;
+  }
+  h6 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: 0.02px;
+    color: #214e41;
+  }
+}
+.wrap__three {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  &__img {
+    display: flex;
+    justify-content: center;
+  }
+  h6 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.05px;
+    text-transform: uppercase;
+    color: #43806c;
+    padding-bottom: 20px;
+  }
+  h1 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #214e41;
+    padding-bottom: 34px;
+  }
+  h4 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.02px;
+    color: #757575;
+    padding-bottom: 24px;
+  }
+  h3 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.02px;
+    padding-bottom: 24px;
+    color: #214e41;
+    text-decoration: underline;
+  }
+}

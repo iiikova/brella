@@ -1,0 +1,36 @@
+@import "../../App.sass";
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.wrap {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  padding: 100px 0;
+  img {
+    padding-bottom: 20px;
+  }
+  p {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    letter-spacing: 0.05px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    color: #43806c;
+  }
+  h6 {
+    font-family: "Roboto", sans-serif;
+    // font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #214e41;
+  }
+}

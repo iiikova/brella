@@ -1,0 +1,125 @@
+@import "../../App.sass";
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.wrap {
+  font-family: "Roboto";
+  padding: 150px 0px;
+
+  font-family: "Roboto";
+  .wrappper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    .info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      h6 {
+        font-family: "Raleway", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+        letter-spacing: 0.05px;
+        text-transform: uppercase;
+        color: #43806c;
+        margin-bottom: 30px;
+      }
+      h1 {
+        font-family: "Roboto";
+        // font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 46px;
+        color: #214e41;
+        margin-bottom: 30px;
+      }
+      h4 {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 0.02px;
+        color: #757575;
+        margin-bottom: 30px;
+      }
+      h5 {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 0.02px;
+        color: #214e41;
+        text-align: left;
+      }
+    }
+    .static {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      color: #214e41;
+
+      .static__left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h1 {
+          font-size: 70px;
+          margin-bottom: 30px;
+        }
+        h6 {
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 13px;
+          line-height: 22px;
+          letter-spacing: 0.02px;
+          color: #214e41;
+        }
+      }
+      .static__right {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        .static__right__small {
+          display: flex;
+          flex-direction: column;
+          justify-content: end;
+          margin-right: 50px;
+          h6 {
+          }
+          span {
+            width: 78px;
+            height: 150px;
+            background: #43806c;
+            border-radius: 0px;
+            margin-bottom: 10px;
+          }
+        }
+        .static__right__big {
+          display: flex;
+          flex-direction: column;
+          justify-content: end;
+
+          h6 {
+          }
+          span {
+            width: 78px;
+            height: 300px;
+            background: #43806c;
+            border-radius: 0px;
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+  }
+}

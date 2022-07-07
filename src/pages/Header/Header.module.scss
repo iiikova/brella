@@ -1,0 +1,136 @@
+@import "../../App.sass";
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 20px 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  .logo {
+    img {
+    }
+  }
+  .navbar ul {
+    display: flex;
+    align-items: center;
+    li {
+      list-style: none;
+      margin-right: 50px;
+      a {
+        text-decoration: none;
+        color: $clr-primary;
+      }
+    }
+    li button {
+      background: $clr-green;
+      border-radius: 6px;
+      padding: 10px;
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: $fw-bold;
+      font-size: 14px;
+      line-height: 20px;
+      color: #ffffff;
+      border: none;
+    }
+  }
+}
+.main {
+  background-image: url("../../assets//images/main.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 720px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .title {
+    width: 516px;
+    h1 {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 46px;
+      color: $clr-primary;
+    }
+    p {
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      padding-top: 40px;
+      padding-bottom: 20px;
+      color: $clr-primary;
+    }
+    .input {
+      display: flex;
+      align-items: center;
+      input {
+        height: 60px;
+        width: 280px;
+        padding: 20px;
+        border: none;
+        input::placeholder {
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 20px;
+          color: #222222;
+        }
+      }
+      div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 60px;
+        width: 123px;
+        background: #43806c;
+        border-radius: 0px 6px 6px 0px;
+        span {
+          padding: 20px;
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 13px;
+          line-height: 20px;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+  .icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #fff;
+    position: absolute;
+    bottom: -100px;
+    max-width: 1200px;
+    height: 171px;
+    box-shadow: 1px 1px 4px rgba(232, 230, 230, 0.6);
+    border-radius: 6px;
+
+    div {
+      display: flex;
+      flex-direction: row;
+      padding: 25px 25px 0px 25px;
+      div img {
+        height: 42px;
+        width: 70px;
+        align-self: flex-start;
+      }
+      div {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+      }
+    }
+  }
+}
